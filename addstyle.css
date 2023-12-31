@@ -1,0 +1,75 @@
+/* Common styles */
+body {
+  color: white;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: 30px 170px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #222;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #ccc;
+}
+
+a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0099cc;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  max-width: 600px;
+  text-align: center;
+}
+
+
+
+.button {
+  background-color: black;
+  box-shadow: 0 0 5px 1px #fff;
+  padding: 10px 16px;
+  margin: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #333;
+}
+

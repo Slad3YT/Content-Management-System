@@ -1,0 +1,179 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+h5 {
+  font-size: 16px;
+  color: #aaa;
+}
+
+a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0099cc;
+}
+
+
+.content {
+  
+  flex: 1;
+  padding-bottom: 60px; 
+  box-sizing: border-box;
+}
+
+.logo {
+  margin: 30px 170px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #222;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #ccc;
+}
+
+.welcome-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #333;
+}
+
+.welcome-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.flex {
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+div div {
+  margin: 0 10px;
+}
+
+button {
+  background-color: black;
+  border: none;
+  box-shadow: 0 0 5px 1px #fff;
+  padding: 10px 16px;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 10px; /* Margin between buttons */
+}
+
+button:hover {
+  background-color: #333;
+}
+
+form {
+  text-align: center;
+}
+
+
+.explore-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.explore-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.explore-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #fff;
+}

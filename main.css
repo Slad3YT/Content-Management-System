@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+}
+
+nav {
+    gap: 1em;
+    width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  
+}
+
+.logo {
+    font-size: 32px;
+  }
+
+nav ul {
+  list-style-type: none;
+ 
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+li a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.float {
+  float: right;
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  
+}
+
+#button1{
+    background-color: black;
+    
+    color: aliceblue ;
+    
+}
+
+#button2{
+    background-color: black;
+    color: aliceblue ;
+    
+}
+
+
+li a:hover {
+  background-color: white;
+  color: #000;
+  border-radius: 50%;
+
+}
